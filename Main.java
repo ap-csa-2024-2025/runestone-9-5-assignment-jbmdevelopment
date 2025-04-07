@@ -7,6 +7,13 @@ public class Main
 {
     public static void main(String[] args)
     {
+        Animal animal = new Animal("Joe", "Bob");
+        animal.matingCall();
+        Dog dog = new Dog("Billy", "German Shepherd");
+        System.out.println(dog.getBreed());
+        dog.matingCall();
+        Cat cat = new Cat("Ben");
+        cat.matingCall();
         ShoppingCart cart = new ShoppingCart();
         cart.add(new Item("bread", 3.25));
         cart.add(new Item("milk", 2.50));
